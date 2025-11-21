@@ -1,0 +1,21 @@
+{
+  "name": "bakend-chatia-influence",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --quiet app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "3.1.11"
+  },
+  "dependencies": {
+    "@google/genai": "^1.30.0",
+    "express": "5.1.0"
+  }
+}
