@@ -8,7 +8,7 @@ app.use(express.json());
 
 // --- INICIALIZAR IA ---
 const ai = new GoogleGenAI({
-  apiKey: "AIzaSyA2tUELSAhRJNoNrGt-OtZO3lx2iz7QI4Q"
+  apiKey: "AIzaSyBiP6V2tQ84lSG_cNd9f67yp01mojqsrKI"
 });
 
 const systemPrompt = `
